@@ -68,3 +68,14 @@ git clone https://github.com/baehyunki/repo.git
 ```bash
 git clone https://github.com/baehyunki/repo.git folderName
 ```
+
+
+git starus // 시작
+
+git add -A // 파일찾기
+or
+git add 20230814
+
+git commit -m "작업내용"
+
+git push - 파일업로드
