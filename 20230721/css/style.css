@@ -1,0 +1,65 @@
+.color{
+    color: rgb(27, 130, 156);
+    font-size: 16px;
+    font-weight: 100;
+    background-color: rgb(190, 212, 241);
+}
+.title{
+    display:inline;
+    color: #833232;
+    font-weight: 900;
+    background-color: rgb(247, 180, 194);
+    padding:30px 50px;
+    text-align: right;
+}
+.content{
+    display:block
+    background-color: black;
+    color: white;
+}
+.ont{
+    display:inline;
+    color: #e9822d;
+    font-size: 30px;
+    font-weight: 200;
+    background-color: rgb(247, 210, 180);
+}
+.list{list-style:none;
+    margin: 0;
+    padding:o
+}
+.box{
+    width: 300px;
+    height: 100px;
+    background-color: rgb(23, 155, 111)
+
+}
+.box2{
+    width: 50px;
+    height: 50px;고양이
+사자
+코끼리
+악어
+Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos reprehenderit nostrum rerum
+    background-color: rgb(111, 10, 136)
+}
+.box3{
+    width: 15px;
+    height: 150px;
+    background-color: rgb(10, 136, 125)
+}
+.box4{
+    width: 350px;
+    height: 3     50px;
+    color:aliceblue;
+    background-color: rgb(27, 78, 74);
+    padding-top:10px;
+    paddong-left:30px;
+    padding-right:100px;
+    padding-bottom:50px;
+    padding:10px 100px 50px 30px;
+    margin-top: 50px;
+    margin-right: 100px;
+    margin-left: 50px;
+    margin-bottom: 100px;
+}

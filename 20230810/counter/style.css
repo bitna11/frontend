@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+   box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+
+}
+
+#app {
+    display: grid;
+    align-content: start;
+    grid-template-rows: repeat(auto-fit,1fr);
+    background-image: url(1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: ;
+}
+[data=counter] {
+    mix-blend-mode: difference;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    line-height: 1.2;
+    font-size: 8vw;
+    font-weight: 100;
+}
+
+[data-counter] > .timer {
+    color: aliceblue;
+
+}

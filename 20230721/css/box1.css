@@ -1,0 +1,27 @@
+.box1{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 100;
+    background-color: rgb(255, 0, 0);
+    text-align: center;
+    padging:20px;
+    margin:20px;
+} 
+.box2{
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+    background-color: green;
+    text-align: center;
+    padging:20px;
+    margin:20px;
+}
+.box3{
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+    background-color: blue;
+    text-align: center;
+    padging:20px;
+    margin:20px;
+}

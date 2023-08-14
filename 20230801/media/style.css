@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+   box-sizing: border-box;}
+
+   .container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+
+.image{
+    flex-basis: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+@media (min-width: 1024px){
+    .container{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .image{
+        flex-basis:100%;
+        height: auto;
+    }
+}
+@media (min-width: 1280px){
+    .image{
+        flex-basis: calc(100% / 4);
+    }
+}
+
+@media (min-width: 1440px){
+    .image{
+        flex-basis:calc(100% / 5)
+    }
+}
+             

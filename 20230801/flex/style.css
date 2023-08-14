@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+   box-sizing: border-box;}
+
+
+   .container{
+    display: flex;
+    flex-wrap: wrap;
+   }
+
+   .container > div{
+    /* display: inline-block; 세로정렬 띄움있음*/
+    flex: 1 1 auto;
+    background-color: rgb(92, 83, 226); 
+    width: 200px;
+    height: 200px;
+    flex: 1 1 auto;
+   }
+
+   .container > div:nth-child(2){
+   background-color: rgb(164, 159, 223); 
+
+    }
+
+   .container > div:nth-child(3){
+    background-color: rgb(45, 35, 184);
+    flex: 4 4 auto;
+    }

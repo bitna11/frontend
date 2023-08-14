@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+   box-sizing: border-box;
+}
+
+.container{
+    color: rgb(95, 95, 95);
+    border-radius: 20px;
+
+    background-image:url('https://images.pexels.com/photos/17481616/pexels-photo-17481616.jpeg?auto=compress&cs=tinysrgb&w=300&lazy=load');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.text.h2{
+    font-size: 30px;
+}
+
+.text.p{
+    font-size: 24px; 
+}

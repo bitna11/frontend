@@ -1,0 +1,30 @@
+.btn{
+    font-size: 1rem;
+    border: 1px solid blue;
+    padding: 0.5rem 1rem;
+    background-color: #3658ca;
+    box-shadow: 0 5px 20px 0 #01084d;
+    cursor: pointer;
+}
+.btn:hover{
+    box-shadow: 0 10px 20px #01d9ff;
+    font-weight: 1000;
+    background-color: #ffffff;
+}
+.btn.pink{
+    border: 1px solid pink;
+    color: pink;
+}
+
+btn.pink{
+    border: 1px solid pink;
+}
+
+btn.blue{
+    color: #01084d;
+}
+
+.btn.round{
+    border-radius: 8px;
+
+}
